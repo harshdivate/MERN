@@ -1,0 +1,10 @@
+2023-08-20	03:08:60	22cd5bcf-06f4-41e8-8337-ecc6cc4603ca	GET	undefined	/new-page.html
+2023-08-20	03:08:62	b5959d31-57ae-47ed-bba3-bf3c734f4dce	GET	undefined	/image/p.jpeg
+2023-08-20	03:08:33	21354cac-95b1-44f4-84e5-7e8393bc1ab2	GET	undefined	/
+2023-08-20	03:08:35	e9fe3775-27ec-424c-a679-f34bed936c2d	GET	undefined	/css/style.css
+2023-08-20	03:08:19	045702ee-c763-4161-b2e4-f6be8dc440fc	GET	undefined	/
+2023-08-20	03:08:21	35ce9240-3f59-408b-b780-b4cc96dcce9b	GET	undefined	/css/style.css
+2023-08-20	03:08:23	74b52e5e-23a5-48b3-867c-86d4dc0000ba	OPTIONS	https://www.google.com	/
+2023-08-20	03:08:23	0e64a655-8b96-4d17-9a18-cf8f78f8af4a	GET	https://www.google.com	/
+2023-08-20	03:08:03	8230e206-1cb0-4da0-b978-00cfc9c36f3c	OPTIONS	https://www.google.com	/
+2023-08-20	03:08:04	18f6ba5f-0b2d-41e7-86ae-fcedbeba7469	GET	https://www.google.com	/

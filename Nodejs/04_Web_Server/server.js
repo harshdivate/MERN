@@ -39,6 +39,7 @@ const server=http.createServer((req,res)=>{
     console.log(req.method);
     
     const extension=path.extname(req.url);
+    console.log("Extension is"+extension);
 
     let contentType;
 

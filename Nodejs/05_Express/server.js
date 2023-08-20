@@ -89,6 +89,18 @@ app.get('/new-page.html',(req,res)=>{
 
 app.use(errorHandler);
 
+
+app.all('*',(req,res)=>{
+    res.status(404);
+    if(req.accepts('html')){
+        res.sendFile(path.join(__dirnamem,'views','404.html'))
+    } else if (req.accepts('json')){
+        res.json({"Error":"404 not found"})
+    } else{
+        res.type('text').send("404 not found")
+    }
+})
+
 app.listen(PORT,()=>{
     console.log(`Server is up and running on port ${PORT}`);
 })

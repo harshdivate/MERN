@@ -1,0 +1,7 @@
+2023-08-20	12:08:08	a3176f1b-ea8d-47c9-a039-fe50a0582b95	GET	undefined	/
+2023-08-20	12:08:10	efb5ed15-0eed-487f-91c2-6efffeb2e477	GET	undefined	/css/style.css
+2023-08-20	12:08:38	12664ef2-680c-42a0-b42c-b6ca1bd0ef4a	GET	undefined	/
+2023-08-20	12:08:94	df415cd8-8b34-4572-8562-f9b96512ad48	GET	undefined	/
+2023-08-20	12:08:71	86d535a8-7e03-4157-9d76-df15dd4dd1e5	GET	undefined	/
+2023-08-20	12:08:90	3f84a560-c069-4378-aa77-14b0d3f696f8	GET	undefined	/
+2023-08-20	12:08:93	b77a8533-74e2-4aeb-be1a-1e0f9b28e861	GET	undefined	/css/style.css

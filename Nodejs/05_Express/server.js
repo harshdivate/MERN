@@ -3,7 +3,8 @@ const express=require('express');
 const app=express();
 const PORT=process.env.PORT || 3500;
 const cors = require('cors');
-const {logger}=require('./middleware/logEvents')
+const {logger}=require('./middleware/logEvents');
+const errorHandler=require('./middleware/errorHandler')
 
 //custom middleware logger
 
@@ -12,11 +13,11 @@ app.use(logger);
 
 
 //Cors : Cross origin resource sharing 
-const whitelist=['https://www.yoursite.com','https://127.0.0.1:5500','https://localhost:3500'];
+const whitelist=['https://www.yoursite.com','https://127.0.0.1:5500','http://localhost:3500'];
 
 const corsOptions={
     origin:(origin,callback)=>{
-        if(whitelist.indexOf(origin)!=-1){
+        if(whitelist.indexOf(origin)!=-1 || !origin ){
             callback(null,true);
         }else{
             callback(new Error ('Not allowed by Cors'));
@@ -86,6 +87,7 @@ app.get('/new-page.html',(req,res)=>{
 // })
 
 
+app.use(errorHandler);
 
 app.listen(PORT,()=>{
     console.log(`Server is up and running on port ${PORT}`);

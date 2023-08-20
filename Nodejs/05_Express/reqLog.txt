@@ -8,3 +8,12 @@
 2023-08-20	03:08:23	0e64a655-8b96-4d17-9a18-cf8f78f8af4a	GET	https://www.google.com	/
 2023-08-20	03:08:03	8230e206-1cb0-4da0-b978-00cfc9c36f3c	OPTIONS	https://www.google.com	/
 2023-08-20	03:08:04	18f6ba5f-0b2d-41e7-86ae-fcedbeba7469	GET	https://www.google.com	/
+2023-08-20	12:08:83	5038c17a-db9f-435b-9b3d-8c55dd21cd7a	GET	undefined	/
+2023-08-20	12:08:97	a85b7d28-856f-45e0-85ae-63193414b360	GET	undefined	/
+2023-08-20	12:08:33	aed59c75-a1f4-49de-be21-fbef49c7f6a5	GET	undefined	/
+2023-08-20	12:08:77	a2a38d8a-5f82-4390-8f6c-4966b6b36f68	GET	undefined	/
+2023-08-20	12:08:35	a9fa0af5-e737-4433-848f-2a3e01184dd8	GET	undefined	/
+2023-08-20	12:08:88	1b065f7b-6ef2-42cb-801c-9e2bc2304e65	GET	undefined	/
+2023-08-20	12:08:08	658539ee-53ee-4b28-be74-b1bc3616523c	GET	undefined	/
+2023-08-20	12:08:10	5fc8c3da-046a-4bd1-bf5b-515857507c64	GET	undefined	/css/style.css
+2023-08-20	12:08:12	352ac18b-4e02-402e-a03f-eae746d72f3e	GET	undefined	/favicon.ico

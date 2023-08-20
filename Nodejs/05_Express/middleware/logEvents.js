@@ -14,12 +14,12 @@ const logEvents=async (message,logName)=>{
     try{
         // Check is Directory is created or not 
         // If not created then create a directory
-        if(!fs.existsSync(path.join(__dirname,'..',logName))){
+        if(!fs.existsSync(path.join(__dirname,'..','logs'))){
             await  fsPromises.mkdir(path.join(__dirname,'..','/logs'));
         }
         
         //After creating directory append the logData to that file
-        await fsPromises.appendFile(path.join(__dirname,'..',logName),logData);
+        await fsPromises.appendFile(path.join(__dirname,'..','logs',logName),logData);
 
     }
     catch(err){
@@ -32,6 +32,7 @@ const logger=(req,res,next)=>{
     console.log(`${req.method}\t ${req.path}`);
     next();
 }
+
 // module.exports(logEvents);
 module.exports={logger,logEvents};
 // logEvents('Hi ');

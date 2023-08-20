@@ -17,7 +17,9 @@ const whitelist=['https://www.yoursite.com','https://127.0.0.1:5500','http://loc
 
 const corsOptions={
     origin:(origin,callback)=>{
-        if(whitelist.indexOf(origin)!=-1 || !origin ){
+        console.log(origin);
+        console.log(whitelist.indexOf(origin)  || !origin );
+        if(whitelist.indexOf(origin)!=-1 ){
             callback(null,true);
         }else{
             callback(new Error ('Not allowed by Cors'));

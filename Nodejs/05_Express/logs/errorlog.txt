@@ -1,1 +1,2 @@
 2023-08-20	12:08:71	821fa182-2998-43ca-b068-20bfbee5209d	Error:Not allowed by Cors
+2023-08-20	22:08:56	1a99d3c1-b43f-4f47-bad3-f0c59833d6c1	Error:Not allowed by Cors

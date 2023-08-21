@@ -31,6 +31,9 @@ app.use('/',require('./routes/root'))
 
 app.use('/employees',require('./routes/api/employee'))
 
+app.use('/register',require('./routes/register'));
+app.use('/auth',require('./routes/auth'))
+
 
 
 

@@ -1,6 +1,14 @@
 [
     {
-        "firstname":"harsh",
-        "lastname":"divate"
+        "username": "vinod",
+        "password": "$2b$10$Eut/0FgzAkV8YOyiJPj82e5hCpmDkAGHuVbvIGpOPtCGKltnTiak2"
+    },
+    {
+        "username": "laxmi",
+        "password": "$2b$10$rKBTc99sQ73hiHHpsjh/7OFs/UUl8o4RrQU2XRnEaNvVzT6bqyy3C"
+    },
+    {
+        "username": "jaggu",
+        "password": "$2b$10$Ua020Vv.3UR/b7p8sN.j0e7l5.EG0kqCEY6ZqbkOjJnN9bsHq5xxC"
     }
 ]

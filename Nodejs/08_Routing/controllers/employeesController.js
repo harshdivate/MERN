@@ -1,7 +1,6 @@
 const data={};
 data.employees=require('../model/employee.json');
 
-
 const getAllEmployees=(req,res)=>{
     res.json(data.employees);
 }

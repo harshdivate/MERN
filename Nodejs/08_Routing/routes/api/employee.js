@@ -1,13 +1,13 @@
 const express=require('express');
 const router=express.Router();
 const emplyoyeesController=require('../../controllers/employeesController');
-
+const verifyJWT=require('../../middleware/verifyJWT');
 
 
 
 // Routes
 router.route('/')
-.get(emplyoyeesController.getAllEmployees)
+.get(verifyJWT,emplyoyeesController.getAllEmployees)
 .post(emplyoyeesController.createNewEmployee)
 .put(emplyoyeesController.updateEmployee)
 .delete(emplyoyeesController.deleteEmployee);

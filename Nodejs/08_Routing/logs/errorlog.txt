@@ -4,3 +4,7 @@
 2023-08-20	15:08:65	550e3f35-d534-4ce1-8f07-e00c6ea7d41d	SyntaxError:Unexpected end of JSON input
 2023-08-22	00:08:70	6a783cce-7e43-4a9c-8e15-d8a06fb6adbd	ReferenceError:userDb is not defined
 2023-08-22	00:08:57	53a18a7c-0f90-4c46-ad69-cd2176253b19	TypeError:Cannot read properties of undefined (reading 'pwd')
+2023-08-22	22:08:88	5b7598bd-34bb-40d9-8b7f-f785f4f161c9	TypeError:res.sendStatusCode is not a function
+2023-08-22	22:08:30	f39ad759-2949-4556-8d8c-c6acaae61e69	TypeError:res.sendStatusCode is not a function
+2023-08-22	22:08:87	38ea620f-6bd8-4915-bdcb-662dbc35af5f	TypeError:res.sendStatusCode is not a function
+2023-08-22	22:08:74	c76ea049-175a-48b4-a6b2-c9ace38120a6	TypeError:res.sendStatusCode is not a function

@@ -73,7 +73,7 @@ const handleLogin = async ( req , res ) => {
         const accessToken = jwt.sign(
             { "username": foundUser.username },
             process.env.ACCESS_TOKEN_SECRET,
-            { expiresIn: '30s' }
+            { expiresIn: '30000s' }
         );
         const refreshToken = jwt.sign(
             { "username": foundUser.username },
@@ -88,7 +88,7 @@ const handleLogin = async ( req , res ) => {
             path.join(__dirname, '..', 'model', 'users.json'),
             JSON.stringify(usersDB.users)
         );
-        res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 });
+        res.cookie('jwt', refreshToken);
         res.json({ accessToken });
     } else {
         res.sendStatus(401);

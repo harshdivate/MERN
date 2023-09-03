@@ -4,9 +4,9 @@ require('dotenv').config();
 
 
 const verifyJWT=(req,res,next)=>{
-    const authHeader = req.headers['authorization'];;
+    const authHeader = req.headers.authorization|| req.headers.Authorization;
     console.log(authHeader);
-    if(!authHeader){
+    if(!authHeader?.startsWith('Bearer')){
         console.log('Not authorized');
         return res.sendStatus(401);
     }
@@ -18,7 +18,8 @@ const verifyJWT=(req,res,next)=>{
         (err ,decoded) => {
             
             if (err) return res.sendStatus(403);
-            req.user=decoded.username;
+            req.user=decoded.UserInfo.username;
+            req.roles=decoded.UserInfo.roles;
             next();
         }
     );

@@ -247,3 +247,6 @@
 2023-08-24	01:08:93	2e3e34d0-73eb-4e96-b445-1a443ee98a23	POST	undefined	/auth
 2023-08-24	01:08:06	03d97418-f8f5-46d0-8176-da23316c85a9	GET	undefined	/refresh
 2023-08-24	01:08:78	485c81e6-9f24-40cf-a6d3-ead8063f4676	GET	undefined	/logout
+2023-08-24	02:08:59	1b2e4e2b-fef8-4de3-bcbd-7d9f9fb61e28	GET	undefined	/auth
+2023-08-24	02:08:94	ebee90ba-0b84-4c9a-b902-97b6bf1ef352	GET	undefined	/auth
+2023-08-24	02:08:07	d9f6ce4d-9e16-4470-acf0-855f5e8cf08c	POST	undefined	/auth
